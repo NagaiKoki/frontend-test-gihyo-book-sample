@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'FILE=$(cat | jq -r .tool_input.file_path); if echo \"$FILE\" | grep -q \"\\.test\\.ts\"; then npx vitest run 2>&1 | tail -20; fi'",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
