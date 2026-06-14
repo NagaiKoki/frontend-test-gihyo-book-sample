@@ -11,6 +11,7 @@ import { SearchPage } from './pages/SearchPage';
 import { FormPage } from './pages/FormPage';
 import { DetailsPage } from './pages/DetailsPage';
 import { TodosPage } from './pages/TodosPage';
+import { SettingsPage } from './pages/SettingsPage';
 
 export const App = () => {
   return (
@@ -26,6 +27,7 @@ export const App = () => {
       <Route path="/form" element={<FormPage />} />
       <Route path="/details" element={<DetailsPage />} />
       <Route path="/todos" element={<TodosPage />} />
+      <Route path="/settings" element={<SettingsPage />} />
     </Routes>
   );
 };

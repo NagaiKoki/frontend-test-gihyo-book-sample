@@ -8,6 +8,7 @@ export const Home = () => {
     <main>
       <h1>ようこそ</h1>
       <p>E2Eテストの題材となるサンプルページです。</p>
+      <p>ログインに成功しました</p>
       <button type="button">送信</button>
       <button type="button" onClick={() => setIsClicked(true)}>
         表示
