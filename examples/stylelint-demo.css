@@ -1,0 +1,13 @@
+/* Stylelint デモ用: 命名規則の不統一・プロパティ重複・カラー値の混在（本書 コード3.12 相当） */
+/* examples ディレクトリを対象に stylelint を実行すると違反を確認でき、--fix で自動修正できます。 */
+.Button {
+  color: black;
+  background-color: #fff;
+  padding: 10px 20px;
+  color: red;
+  border: none;
+}
+
+.text {
+  font-size: 14px;
+}
