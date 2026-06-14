@@ -1,7 +1,6 @@
 import eslint from "@eslint/js";
 import { defineConfig } from "eslint/config";
 import tseslint from "typescript-eslint";
-import prettierConfig from "eslint-config-prettier/flat";
 
 export default defineConfig(
   { ignores: ["node_modules/", "dist/", "build/"] },
@@ -14,5 +13,4 @@ export default defineConfig(
       "@typescript-eslint/no-unused-vars": "error",
     },
   },
-  prettierConfig,
 );
