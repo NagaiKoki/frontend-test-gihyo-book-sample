@@ -8,6 +8,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest",
+    "test:storybook": "vitest --project=storybook",
+    "test:storybook:ui": "vitest --project=storybook --ui",
+    "test:storybook:watch": "vitest --project=storybook --watch",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,ts,jsx,tsx}\"",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
@@ -30,6 +33,7 @@
     "@eslint/js": "^10.0.1",
     "@playwright/test": "~1.58.0",
     "@storybook/addon-themes": "^10.4.4",
+    "@storybook/addon-vitest": "^10.4.4",
     "@storybook/react-vite": "^10.4.4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -48,6 +52,9 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.61.0",
     "vite": "^8.0.10",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.8",
+    "playwright": "^1.60.0",
+    "@vitest/browser-playwright": "^4.1.8",
+    "@vitest/coverage-v8": "^4.1.8"
   }
 }
