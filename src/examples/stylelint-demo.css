@@ -1,5 +1,4 @@
 /* 本書 コード3.12「問題が生じる可能性があるCSSの例」（命名の不統一・color 重複・カラー値の混在）。 */
-/* `npx stylelint "src/**/*.css"` で違反を確認し、--fix で自動修正してみてください。 */
 .Button {
   color: black;
   background-color: #fff;
