@@ -1,5 +1,5 @@
-/* Stylelint デモ用: 命名規則の不統一・プロパティ重複・カラー値の混在（本書 コード3.12 相当） */
-/* examples ディレクトリを対象に stylelint を実行すると違反を確認でき、--fix で自動修正できます。 */
+/* 本書 コード3.12「問題が生じる可能性があるCSSの例」（命名の不統一・color 重複・カラー値の混在）。 */
+/* `npx stylelint "src/**/*.css"` で違反を確認し、--fix で自動修正してみてください。 */
 .Button {
   color: black;
   background-color: #fff;
