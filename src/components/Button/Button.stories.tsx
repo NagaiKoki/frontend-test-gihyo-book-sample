@@ -17,14 +17,14 @@ export const Default: Story = {
 
 export const Primary: Story = {
   args: {
+    children: '送信',
     variant: 'primary',
-    children: 'Primary',
   },
 };
 
 export const Disabled: Story = {
   args: {
+    children: '無効',
     disabled: true,
-    children: 'Disabled',
   },
 };
