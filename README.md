@@ -102,3 +102,6 @@ frontend-test-gihyo-book-sample/
 | `npm run preview` | ビルド済みの成果物をローカルでプレビュー            |
 
 3 章以降を進めると、`lint`・`test`・`test:e2e`・`storybook` などのスクリプトが順次追加されていきます。
+
+> [!NOTE]
+> 本書本文中のサンプルコードと本リポジトリのコードとで矛盾が生じる箇所（写経するとテストが失敗するケースなど）は、[ERRATA.md](./ERRATA.md) に原因と修正後コードをまとめています。
